@@ -1,0 +1,27 @@
+{
+  "name": "speech-to-text-server",
+  "version": "1.0.0",
+  "description": "WebSocket server for real-time speech-to-text using Google Cloud Speech API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "speech-to-text",
+    "websocket",
+    "google-cloud-speech",
+    "real-time",
+    "streaming"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/speech": "^6.7.0",
+    "ws": "^8.18.0",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

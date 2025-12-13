@@ -1,0 +1,55 @@
+# Dependencies
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Google Cloud credentials
+*.json
+!package.json
+!package-lock.json
+!eas.json
+!app.json
+!tsconfig.json
+
+# Expo
+.expo/
+dist/
+web-build/
+
+# Native builds
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+android/
+ios/
+
+# Metro bundler
+.metro-health-check*
+
+# Debug logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# Testing
+coverage/
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build outputs
+build/

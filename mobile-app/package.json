@@ -1,0 +1,30 @@
+{
+  "name": "speech-to-text-app",
+  "version": "1.0.0",
+  "description": "Real-time Speech-to-Text mobile application",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "prebuild": "expo prebuild",
+    "build:ios": "eas build --platform ios",
+    "build:android": "eas build --platform android",
+    "build:all": "eas build --platform all"
+  },
+  "dependencies": {
+    "expo": "~52.0.0",
+    "expo-dev-client": "~5.0.0",
+    "expo-status-bar": "~2.0.0",
+    "@siteed/expo-audio-stream": "^1.4.1",
+    "react": "18.3.1",
+    "react-native": "0.76.3",
+    "react-native-safe-area-context": "4.12.0",
+    "expo-build-properties": "~0.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~18.3.12"
+  },
+  "private": true
+}
